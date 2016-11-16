@@ -1,0 +1,23 @@
+.TodoItem {
+  border: 1px solid black;
+  position: relative;
+  max-width: 600px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.TodoItem-text {
+  background-color: beige;
+/*  width: 100%;*/
+/*  border: 1px solid black;*/
+/*  color: red;*/
+}
+
+.TodoItem-button {
+/*  float: right;*/
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
