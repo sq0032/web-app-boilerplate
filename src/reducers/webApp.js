@@ -6,7 +6,7 @@ import { actions } from '../actions/actions';
 export function todos(state = [], action){
   switch (action.type) {
     case actions.ADD_TODO:
-      return [...state, action.text]
+      return [...state, {text:action.text}]
     case actions.DELETE_TODO:
       const index = action.index;
       state.splice(index, 1);
