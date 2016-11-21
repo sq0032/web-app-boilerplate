@@ -3,18 +3,10 @@ import logo from '../logo.svg';
 import './App.css';
 
 //import List from './List';
-import TodoList from '../containers/TodoList'
-import TodoHeader from '../containers/TodoHeader'
+import TodoList from '../containers/TodoList';
+import TodoHeader from '../containers/TodoHeader';
+import Notification from '../containers/Notification';
 
-//let todos = [
-//  {text:"todo 1"},
-//  {text:"todo 2"},
-//  {text:"todo 3"},
-//]
-
-//const onClickToRemove = (index) => {
-//  console.log(index);
-//}
 
 class App extends Component {
   render() {
@@ -27,6 +19,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Notification />
         <TodoHeader />
         <TodoList />
       </div>

@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import { actions } from '../actions/actions';
 
+import { notification } from './notification';
+
 
 //Initial state: Array of Strings
 export function todos(state = [], action){
@@ -16,6 +18,8 @@ export function todos(state = [], action){
   }
 }
 
+
 export const webApp = combineReducers({
-  todos
+  todos,
+  notification
 })

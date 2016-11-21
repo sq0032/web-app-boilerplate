@@ -1,0 +1,16 @@
+.Notification-show {
+/*  text-align: center;*/
+  position: relative;
+  width: 200px;
+  min-height: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: aqua
+}
+
+.Notification-hide {
+  display: none;
+}
